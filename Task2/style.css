@@ -1,0 +1,290 @@
+@font-face {
+    font-family: Inter;
+    src: url(/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Kg;
+    src: url(/KantumruyPro-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: Inter;
+}
+
+main .insect{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+} 
+
+.container2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(182, 52, 43);
+}
+
+.box1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1 input{
+    border: 2px solid grey;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 2px 15px;
+}
+
+input[type="search"] {
+  background-image: url('/images/search.png');
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  padding-left: 40px;
+}
+
+.box2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding: 20px 30px;
+}
+
+.rot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Font-family: Kg;
+    font-size: 20px;
+    width: 25%;
+}
+
+.rot h1{
+    rotate: 270deg;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    font-size: 16px;
+    gap: 5px;
+}
+
+.details li{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul li::marker{
+    color : rgb(182, 52, 43);
+}
+
+
+
+li p{
+    font-size: 15px;
+    color: grey;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(180, 178, 178);
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav h1{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.lastBox{
+    width: 100%;
+    height: 90%;
+}
+
+.lastTopBox{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 25px;
+    padding: 60px 30px;
+}
+
+.lastTopBox h2{
+    font-family: Kg;
+    color: white;
+    font-weight: 300;
+}
+
+
+.lastmiddle{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.lastmidBox img{
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    filter: brightness(0) invert(1);
+}
+
+
+.info img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.info{
+    display:flex;
+    gap: 10px;
+    padding: 10px 0;
+    font-size: 10px;
+}
+
+.info p{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.lastmidBox{
+    padding-right: 30px;
+    border-right: 2px solid white;
+}
+
+.last{
+    padding: 0 230px;
+}
+
+
+.price h2{
+    color: rgb(233, 191, 2);
+    font-weight: 600;
+}
+
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.label-text {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #ff6b6b;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ff6b6b;
+}
+
+input:checked + .slider:before {
+  transform: translateX(14px);
+}
+
+.label-text{
+    color: white;
+}
+
+.toggle-container{
+    padding: 10px 0;
+}
+
+.lastbutton{
+    width: 200px;
+    height: 50px;
+}
+
+.lastbutton button{
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: rgb(217, 187, 145);
+    border: none;
+    box-shadow: 
+}
