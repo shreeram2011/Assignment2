@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'Google';
+    src: url('/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Google';
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-links h5{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.get-started{
+    padding: 10px 20px;
+    background-color: #131313;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.get-started h5{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+article{
+    width: 100%;
+    height: 90%;
+}
+
+.article1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 80px;
+    padding-top: 60px;
+}
+
+.article2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.article2 h5{
+    font-size: 22px;
+    font-weight: 200;
+    background-color: #131313;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+
+.article3{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card1{
+    width: 25%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #0f0f0f;
+}
+
+.card2{
+    width: 25%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #0f0f0f;
+}
+
+.card3{
+    width: 25%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #0f0f0f;
+}
+
+.card1 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card1 h5{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 5px 20px;
+    margin: 10px 15px;
+    background-color: #581E0A;
+    color: #EE9567;
+    border-radius: 25px;
+    width: 20%;
+}
+
+.card1 h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.card1 p{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 5px 20px;
+    color: grey;
+}
+
+.card2 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card2 h5{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 5px 20px;
+    margin: 10px 15px;
+    background-color: #581E0A;
+    color: #EE9567;
+    border-radius: 25px;
+    width: 20%;
+}
+
+.card2 h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.card2 p{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 5px 20px;
+    color: grey;
+}
+
+.card3 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card3 h5{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 5px 20px;
+    margin: 10px 15px;
+    background-color: #581E0A;
+    color: #EE9567;
+    border-radius: 25px;
+    width: 31%;
+}
+
+.card3 h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.card3 p{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 5px 20px;
+    color: grey;
+}
